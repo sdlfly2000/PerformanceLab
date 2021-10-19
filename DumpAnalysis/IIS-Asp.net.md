@@ -16,8 +16,11 @@
 
 > !syncblk
 
+* Display all threads' stacks
+> ~* e!CLRStack
+
 * Select thread holding sync block
-> !clrstack
+> !CLRStack
 
 * Find caller with addr
 > !ip2md
